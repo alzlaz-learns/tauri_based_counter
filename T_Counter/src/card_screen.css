@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: auto  auto;
+    grid-gap: 10px;
+    
+}
+
+.counter {
+    background-color: aqua;
+}
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(172, 15, 15);
+    margin: 5px;
+  }
+
+h1 {
+    text-align: center;
+  }
+  
